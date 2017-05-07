@@ -20,7 +20,7 @@
  * THE SOFTWARE.
  */
 
-package com.thaumatech.astronomicon;
+package com.thaumatech.astroscope;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -31,6 +31,7 @@ import android.support.v7.widget.helper.ItemTouchHelper;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -83,6 +84,9 @@ public class MainActivity extends AppCompatActivity implements ImageRequester.Im
         if (mPhotosList.size() == 0) {
             requestPhoto();
         }
+
+        Toast toast = Toast.makeText(getApplicationContext(), "Tap a photo to expand...", Toast.LENGTH_SHORT);
+        toast.show();
     }
 
     @Override

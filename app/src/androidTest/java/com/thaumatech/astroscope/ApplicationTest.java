@@ -1,4 +1,4 @@
-package com.thaumatech.astronomicon;
+package com.thaumatech.astroscope;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

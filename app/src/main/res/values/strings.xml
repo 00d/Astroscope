@@ -1,5 +1,5 @@
 <resources>
-  <string name="app_name">Astronomicon</string>
+  <string name="app_name">Daily Astroscope</string>
   <string name="api_key">lLY5G7ZByZkZMnOxYAtmSPCOSGdDxno7WvG92y6o</string>
 
   <string name="title_activity_fullscreen">FullscreenActivity</string>

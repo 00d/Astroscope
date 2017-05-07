@@ -20,7 +20,7 @@
  * THE SOFTWARE.
  */
 
-package com.thaumatech.astronomicon;
+package com.thaumatech.astroscope;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;

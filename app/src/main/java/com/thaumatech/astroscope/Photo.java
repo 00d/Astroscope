@@ -20,7 +20,7 @@
  * THE SOFTWARE.
  */
 
-package com.thaumatech.astronomicon;
+package com.thaumatech.astroscope;
 
 import org.json.JSONException;
 import org.json.JSONObject;
